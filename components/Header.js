@@ -4,6 +4,7 @@ import {
   GlobeAltIcon,
   MenuIcon,
   UsersIcon,
+  UserIcon,
 } from "@heroicons/react/solid";
 import { useState } from "react";
 import "react-date-range/dist/styles.css"; // main style file
@@ -76,7 +77,7 @@ function Header({ placeholder }) {
         <GlobeAltIcon className="h-6 cursor-pointer hidden sm:inline-flex" />
         <div className="flex sm:border-2 p-2  rounded-full cursor-pointer space-x-2 items-center">
           <MenuIcon className="h-6 hidden sm:inline-flex" />
-          <UsersIcon className="h-6" />
+          <UserIcon className="h-6" />
         </div>
       </div>
 
