@@ -5,6 +5,7 @@ import {
   MenuIcon,
   UsersIcon,
   UserIcon,
+  MenuAlt1Icon,
 } from "@heroicons/react/solid";
 import { useState } from "react";
 import "react-date-range/dist/styles.css"; // main style file
